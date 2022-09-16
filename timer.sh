@@ -27,7 +27,7 @@ function Help {
 		 h) hour=$OPTARG;;
 		 m) min=$OPTARG;;
 		 s) sec=$OPTARG;;
-		 \?) echo "Unexpected option or options"
+		 \?) echo "Unexpected option or options. Please add the -g flag to get a help page."
 		     exit;;
 	 esac
  done
